@@ -1,9 +1,11 @@
 # (Country Population) Test Project using:
-[Create React App](https://github.com/facebook/create-react-app)
-[TypeScript](https://www.typescriptlang.org)
-[Redux-Toolkit](https://redux-toolkit.js.org/)
-[Material-UI](https://material-ui.com/)
-[ESlint for linting](https://eslint.org/)
+[Create React App](https://github.com/facebook/create-react-app), 
+[TypeScript](https://www.typescriptlang.org),
+[Redux-Toolkit](https://redux-toolkit.js.org/),
+[Material-UI](https://material-ui.com/),
+[ESlint for linting](https://eslint.org/),
+
+Deployed DEMO APP URL: https://jovial-allen-eacf82.netlify.app/
 
 
 ## Available Scripts
