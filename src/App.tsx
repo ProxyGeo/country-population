@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import 'fontsource-roboto'
+import CssBaseline from '@material-ui/core/CssBaseline'
+import Container from '@material-ui/core/Container'
 
-function App() {
+import Countries from './features/countries/Countries'
+
+function App () {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CssBaseline />
+      <Container maxWidth="md">
+        <Countries />
+      </Container>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
